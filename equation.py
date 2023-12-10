@@ -6,16 +6,16 @@ second = 60
 conversion = 1000
 
 # HEAVEN TIME
-heaven_day = day
-heaven_hour = heaven_day * hour
-heaven_minute = heaven_hour * minute
-heaven_second = heaven_minute * second
+time_day = day
+time_hour = time_day * hour
+time_minute = time_hour * minute
+time_second = time_minute * second
 
 # HEAVEN RESULTS
-print('Day in heaven: ' + '{:,}'.format(heaven_day))
-print('Hours in heaven: ' + '{:,}'.format(heaven_hour))
-print('Minutes in heaven: ' + '{:,}'.format(heaven_minute))
-print('Seconds in heaven: ' + '{:,}'.format(heaven_second))
+print('Day: ' + '{:,}'.format(time_day))
+print('Hours: ' + '{:,}'.format(time_hour))
+print('Minutes: ' + '{:,}'.format(time_minute))
+print('Seconds: ' + '{:,}'.format(time_second))
 
 # EARTH TIME
 earth_day = (day * 365) * conversion
